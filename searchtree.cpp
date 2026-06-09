@@ -138,4 +138,18 @@ int main()
             cout << "5. exit" << endl;
             cout << "\nenter your choice: " << endl;
 
- 
+            char ch;
+            cin >> ch;
+
+            cout << endl;
+
+            switch (ch)
+            {
+            case '1':
+            {
+                cout << "enter a word: ";
+                string word;
+                cin >> word;
+                obj.insert(word);
+                break;
+            }
